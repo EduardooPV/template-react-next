@@ -1,5 +1,6 @@
 // Libs
 import React from "react";
+import Head from "next/head";
 import type { NextPage } from "next";
 
 // Styles
@@ -10,9 +11,10 @@ import type { NextPage } from "next";
 
 const Home: NextPage = () => {
   return (
-    <>
-    </>
+    <Head>
+      <title>Título da página</title>
+    </Head>
   );
 };
 
-export default Home
+export default Home;
