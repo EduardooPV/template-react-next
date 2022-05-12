@@ -19,28 +19,32 @@ time, mark, audio, video {
 	padding: 0;
 	border: 0;
 	font-size: 100%;
-	vertical-align: baseline;
   scroll-behavior: smooth;
   text-decoration: none;
   box-sizing: border-box;
 	font: inherit;
   color: inherit;
 }
+
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 ol, ul {
 	list-style: none;
 }
+
 button {
   cursor: pointer;
 }
+
 @media(max-width: 1023px) {
   html {
     font-size: 93.75%;
   }
 }
+
 @media(max-width: 767px) {
   html {
     font-size: 87.5%;
