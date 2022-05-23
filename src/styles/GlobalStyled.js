@@ -50,6 +50,12 @@ button {
     font-size: 87.5%;
   }
 }
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 5%;
+}
 `;
 
 export default GlobalStyled;
